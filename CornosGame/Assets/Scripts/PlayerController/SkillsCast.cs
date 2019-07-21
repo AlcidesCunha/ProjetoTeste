@@ -5,10 +5,11 @@ using UnityEngine;
 public class SkillsCast : MonoBehaviour
 {
     // Start is called before the first frame update
-
-    private void Skill1()
+    public GameObject skill1;
+    public float cooldown1;
+    private void conjurateSkill1()
     {
-        Vector2 local_alvo = GetMousePosition.PosicaoAtualDoMouse; //pegando a posição atual do ponteiro do mouse
+        Instantiate(skill1,transform.position,Quaternion.identity);
     }
     void Start()
     {
@@ -20,7 +21,14 @@ public class SkillsCast : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Z))
         {
-
+            if(cooldown1 <= 0)
+            {
+                conjurateSkill1();
+            }
+        }
+        if(cooldown1 >= 0)
+        {
+            cooldown1 -= Time.deltaTime;
         }
     }
 }

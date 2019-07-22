@@ -145,7 +145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3090488606942905153}
   m_Layer: 0
-  m_Name: Fireball 1
+  m_Name: Fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4876,7 +4876,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 392dc471cc6a479469ecbadc98d5153e, type: 2}
+  - {fileID: 2100000, guid: fc47ddd71681d144ba343b8dc0ca73ce, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0

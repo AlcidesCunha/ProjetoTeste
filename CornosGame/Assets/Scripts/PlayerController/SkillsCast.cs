@@ -9,7 +9,7 @@ public class SkillsCast : MonoBehaviour
     public float cooldown1;
     private void conjurateSkill1()
     {
-        Instantiate(skill1,transform.position,Quaternion.identity);
+        Instantiate(skill1,this.transform.position,Quaternion.identity);
     }
     void Start()
     {
@@ -24,6 +24,7 @@ public class SkillsCast : MonoBehaviour
             if(cooldown1 <= 0)
             {
                 conjurateSkill1();
+                cooldown1 = 5;
             }
         }
         if(cooldown1 >= 0)

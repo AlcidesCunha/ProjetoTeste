@@ -4819,8 +4819,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1777628439462845302}
-  - component: {fileID: -8015845489771788486}
   - component: {fileID: -6509662895721952993}
+  - component: {fileID: 7348867070086616802}
   m_Layer: 0
   m_Name: fireballHit
   m_TagString: Untagged
@@ -4844,21 +4844,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-8015845489771788486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5075666504371678112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d4601728e3333544a863490e6ad60c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  auxTarget: {fileID: 1282122493794109185, guid: bcab72afd1fd7724f85d0df3340fe699,
-    type: 3}
 --- !u!50 &-6509662895721952993
 Rigidbody2D:
   serializedVersion: 4
@@ -4880,6 +4865,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7348867070086616802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5075666504371678112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5e328a077a9ed4abb7176cb05f18ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1 &8753829015930064056
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,11 +6,12 @@ public class SkillsCast : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject skill1;
-    public float cooldown1;
+    public static float cooldown1;
     private void conjurateSkill1()
     {
         Instantiate(skill1,this.transform.position,Quaternion.identity);
     }
+
     void Start()
     {
         

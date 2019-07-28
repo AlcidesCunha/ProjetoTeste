@@ -20,5 +20,6 @@ public class Projectile : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        lifeTime -= Time.deltaTime;
     }
 }

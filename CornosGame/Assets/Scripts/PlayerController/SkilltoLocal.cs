@@ -1,8 +1,8 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkilltoLocal : MonoBehaviour
+public class SkilltoLocal : MonoBehaviour //Script não funcionando e não será mais utilizado #APAGAR
 {
     private Rigidbody2D rig;
     public float speed;
@@ -28,14 +28,6 @@ public class SkilltoLocal : MonoBehaviour
             Destroy(GameObject.FindGameObjectWithTag("Target"));
             isInstantied = false;
         }
-
-        //target.position = GetMousePosition.posicaoAtualDoMouse;
-        /*Vector3 mouseposition = Input.mousePosition;
-        Vector2 local_alvo = Camera.main.ScreenToWorldPoint(mouseposition); //pegando a posição atual do ponteiro do mouse
-        transform.LookAt(local_alvo);
-        target.transform.position = local_alvo;*/
-        
-
     }
         
     private void FixedUpdate()
@@ -52,3 +44,4 @@ public class SkilltoLocal : MonoBehaviour
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 }
+*/

@@ -163,7 +163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939524c245b376e4587d36f4b0dac74d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 9067624303193515683, guid: 8d14b0b960558ba4d93b78403ed7f657, type: 3}
+  cooldown: 5
+  bullet: {fileID: 5075666504371678112, guid: 146fe443a84f68f43bc07fde247f1858, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +472,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skill1: {fileID: 5075666504371678112, guid: 146fe443a84f68f43bc07fde247f1858, type: 3}
-  cooldown1: 0
 --- !u!1 &938881981
 GameObject:
   m_ObjectHideFlags: 0

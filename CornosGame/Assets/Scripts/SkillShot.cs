@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GetMousePosition : MonoBehaviour
+public class SkillShot : MonoBehaviour
 {
     public static Vector2 posicaoAtualDoMouse;
 
